@@ -1,0 +1,14 @@
+<div style="height: 15px;"></div>
+    <section class="p-3 container-fluid">
+        <div class="container-fluid d-flex justify-content-between">
+            <h6>{{title}}</h6>
+            <button class="btn p-0" id="edit-ad"><img src="../assets/add-icon.svg" width="15px"/></button>
+        </div>
+        <app-list-item *ngFor="let item of data" 
+                        [name]="item.name" 
+                        [date]="item.date" 
+                        [location]="item.location" 
+                        [description]="item.description" 
+                        [url]="item.url"
+                        [imgItem]="imgList"></app-list-item>
+    </section>

@@ -1,0 +1,38 @@
+#banner {
+    background-image: url('../../../assets/banner.jpg');
+    height: 200px;
+    width: 100%;
+}
+
+#profile-img {
+    margin-top: 150px;
+    width: 100px;
+}
+
+#edit-pp {
+    margin-left: 120px;
+}
+
+.custom-btr {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.custom-bbr {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.top-logo {
+    font-size: x-small;
+    margin: 0;
+}
+
+.top-logo img {
+    width: 30px;
+    height: 30px;
+}
+
+.top-logo caption {
+    color: black;
+}

@@ -1,0 +1,11 @@
+
+
+p {
+    font-size: 0.8rem !important;
+    line-height: 17px !important;
+}
+
+div, p {
+    padding: 0 !important;
+    margin: 0 !important;
+}

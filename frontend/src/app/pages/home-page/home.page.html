@@ -1,0 +1,47 @@
+
+<app-header></app-header>
+
+<div class="p-3">
+
+    <section class="p-0 pb-3">
+        <div id="banner" class="custom-btr">
+            <img id="profile-img" src="../assets/profile.png" class="rounded-circle ml-3" />
+        </div>
+        <div style="height: 50px; width: 100px;">
+            <button class="btn p-0" id="edit-pp"><img src="../assets/edit-icon.svg" /></button>
+        </div>
+        <div class="p-3 container-fluid d-flex justify-content-between">
+            <div>
+                <h6>Joaquin Guerrini</h6>
+                <p class="small m-0">Estudiante en ECEA</p>
+                <p class="small m-0">Buenos Aires, Argentina</p>
+            </div>
+            <div>
+                <figure class="top-logo d-flex align-items-center">
+                    <img src="../assets/utn.png"/>
+                    <caption>UTN</caption>
+                </figure>
+                <figure class="top-logo d-flex align-items-center">
+                    <img src="../assets/ecea.png"/>
+                    <caption>ECEA</caption>
+                </figure>
+            </div>
+        </div>
+    </section>
+                    
+    <div style="height: 15px;"></div>
+    <section class="p-3 container-fluid">
+        <div class="container-fluid d-flex justify-content-between">
+            <h6>Acerca de</h6>
+            <button class="btn p-0" id="edit-ad"><img src="../assets/edit-icon.svg" width="15px" /></button>
+        </div>
+        <p>Estudiante de bachillerato en economía y administración. Estudiante autodidacta de programación y tecnologías de la información.</p>
+    </section>
+
+    <app-list [title]="'Experiencia'" [data]="experienciaData" [imgList]="true"></app-list>
+
+    <app-list [title]="'Educación'" [data]="educacionData" [imgList]="true"></app-list>
+
+    <app-list [title]="'Proyectos'" [data]="proyectosData" [imgList]="false"></app-list>
+    
+</div>

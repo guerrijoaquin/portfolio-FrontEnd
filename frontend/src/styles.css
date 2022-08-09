@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box !important;
+}
+
+p {
+    font-size: 0.8rem !important;
+    line-height: 17px !important;
+}
+
+div, p, figure, caption {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+section {
+    border-radius: 10px;
+    border: 1px solid rgb(186, 186, 186);
+}
